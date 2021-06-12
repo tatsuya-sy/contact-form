@@ -34,6 +34,32 @@
   }
 }
 
+.item1 {
+  margin-bottom: 60px;
+}
+
+@media (min-width: 750px) {
+  .item1 {
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .item1 {
+    margin-bottom: 52px;
+  }
+}
+
+.item2 {
+  margin-bottom: 38px;
+}
+
+@media (min-width: 1200px) {
+  .item2 {
+    margin-bottom: 30px;
+  }
+}
+
 form {
   margin: 0 20px;
 }
@@ -50,9 +76,7 @@ form h3 {
 
 form input {
   width: 100%;
-  height: 40px;
-  padding: 8px;
-  margin-bottom: 60px;
+  padding: 10px;
   border: none;
   border-radius: 5px;
 }
@@ -60,7 +84,6 @@ form input {
 form textarea {
   width: 100%;
   min-height: 160px;
-  margin-bottom: 38px;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -76,16 +99,8 @@ form textarea {
     color: #707070;
     margin-bottom: 15px;
   }
-  form input {
-    height: 55px;
-    margin-bottom: 80px;
-  }
   form textarea {
     min-height: 250px;
-    margin-bottom: 38px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
   }
 }
 
@@ -95,16 +110,11 @@ form textarea {
     margin-left: 93px;
   }
   form input {
-    height: 35px;
-    margin-bottom: 52px;
     font-size: 20px;
+    padding: 12px 10px;
   }
   form textarea {
     height: 150px;
-    margin-bottom: 30px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
     font-size: 20px;
   }
 }
@@ -153,8 +163,7 @@ button:hover {
 
 .confirming p {
   width: 100%;
-  margin-bottom: 60px;
-  padding: 15px 10px;
+  padding: 10px;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.705);
 }
@@ -180,8 +189,7 @@ button:hover {
     margin: 0 auto;
   }
   .confirming p {
-    margin-bottom: 80px;
-    padding: 20px 10px;
+    padding: 10px;
   }
   .confirming p.big-box {
     min-height: 250px;
@@ -199,9 +207,8 @@ button:hover {
     margin-bottom: 15px;
   }
   .confirming p {
-    margin-bottom: 52px;
     font-size: 20px;
-    padding: 10px 10px;
+    padding: 12px 10px;
   }
   .confirming p.big-box {
     height: 150px;
@@ -212,13 +219,19 @@ button:hover {
   display: none;
 }
 
+.send.next {
+  display: block;
+}
+
 .send p {
   font-size: 22px;
   color: #707070;
   text-align: center;
 }
 
-.send.next {
-  display: block;
+@media (min-width: 1200px) {
+  .send p {
+    font-size: 34px;
+  }
 }
 /*# sourceMappingURL=contact.css.map */

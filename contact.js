@@ -39,12 +39,12 @@
         USER_NAME_CONFIRMING.innerText = USER_NAME_TEXT;
         MAIL_CONFRIMING.innerText = MAIL_TEXT;
         DETEIL_CONFIRMING.innerText = DETAIL_TEXT;
-        
+
         //画面の切り替え
         FORM.classList.add("next");
         CONFIRMING.classList.add("next");
       } else {
-        alert('メールアドレスが間違っています。');
+        alert("メールアドレスが間違っています。");
       }
     } else {
       alert("記入漏れがあります。");
